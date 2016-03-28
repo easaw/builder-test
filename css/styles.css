@@ -230,11 +230,6 @@ label {
 .darkblue {
     background-color: #374568 !important;
 }
-
-.lightgrey {
-    background-color: lightgrey;
-}
-
 nav ul li {
     color: #fff !important;
 }
@@ -253,10 +248,6 @@ nav ul li {
 
 .h300px {
     min-height: 300px;
-}
-
-.h400px {
-    min-height: 400px;
 }
 
 .caps {
@@ -430,11 +421,15 @@ nav ul li {
 
 /* Icons
 -------------------------------- */
+
+.col2mob{text-align: center;}
+.iconrow p{color:#374568;}
+.icon-container {
+    background-color:#ccc;
+    padding:100px 0;
+}
+
 @media (min-width: 0px) and (max-width:900px) {
-    .col-2{min-width: 30%;
-align-content: center;    
-        padding: 5%;
-    margin: 0 auto;}
 }
 @media (min-width: 901px) and (max-width:100%) {
 }
